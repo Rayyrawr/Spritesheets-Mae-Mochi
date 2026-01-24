@@ -24,8 +24,7 @@ Es sind total 17 Columns und 19 Rows.
 | sleep_wake     | 275   | 279            | false | Aufwachen-Transition                     | 280            |
 | sleep_cry      | 281   | 285            | false | Aufwachen into weinen                    | 286 - 289      |
 | dance          | 290   | 314            | false | Dance (auch per Chat-Command !dance)     | 315 - 323      |
-| sign-idle      | 324   | 340            | true  | text-Loop                                |                |
-| sign-start     | 341   | 342            | false | Start der "text" Sequenz                 | 343 - 357      | 
+| sign-idle      | 324   | 339            | true  | text-Loop                                | 340            |
 
 Falls du weitere Animationen hinzufügst (z. B. neue Alerts), ergänze einfach eine neue Zeile und füge denselben Key in `frameRanges` ein.
 
